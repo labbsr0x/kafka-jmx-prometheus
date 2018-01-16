@@ -1,0 +1,6 @@
+version: '2'
+services:
+
+  kafka:
+    image: labbsr0x/kafka-jmx-prometheus:1.0.0
+    build: .
